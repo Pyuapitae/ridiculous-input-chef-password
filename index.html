@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="icon" type="image/png" href="favicon.png?v=2"> <!-- emily helped me -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>
+    Password Catcher
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="prefetch" href="reset.html">
+  <link rel="prefetch" href="finish.html"> -->
+  <script src="main.js"></script>
+</head>
+
+
+<body>
+  
+  <div class="topbar-container">
+    <p class="R"> <a href="reset.html">reset</a></p>
+    <p class="F"><a href="finish.html">finish</a></p>
+  </div>
+
+  <div class="scale-wrapper">
+  <!-- your whole page content -->
+  </div>
+  
+
+  <!-- 
+  <div>
+    <button id="btn-left">left</button>
+    <button id="btn-right">right</button>
+  </div>
+-->
+
+  <div id="chefContainer">
+    <div  class="chef" id="chef">
+      <div class="chefImageContainer">
+        <div class="playerBounds" id="playerBounds"> <!-- make an id of this and replace the playerBounds in java by it -->
+
+        </div>
+        <img src="whole sketch che.png" alt="baker with pan in hand"/>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <img class="kiln"  src="bakery kiln.png" alt="bakery oven and cut up bread on the side"/>
+  </div>
+
+  <div>
+    <img class="fume"  src="bakery fume.png" alt="bakery oven fume with letters caught by chef showing"/>
+  </div>
+
+  <!--chat bgt collision-->
+  <div id="collectedContainer"></div>
+  <div id="collectedLetters"></div>
+  
+  <div>
+    <footer class="bottom-container">
+        <p><br></br><br></br><br></br><br></br><br></br><br></br><br></br>Use A and D key to move</p>
+        <p><br>click reset to start over and finish when completed</p>
+    </footer>
+  </div>
+
+  <div id="drop"></div>
+
+</body>
+</html>
+
