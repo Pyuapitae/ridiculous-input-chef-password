@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-
     if (x >= containerWidth){
       x = containerWidth
     }
   });
+
 
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567890123456789!@#$%^&*()";
   const dropContainer = document.getElementById('drop')
@@ -54,8 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
     letter.style.left = Math.random() * 350 + "vw";
     letter.style.animationDuration = (Math.random() * 7 + 4) + "s";
 
+    // figure out with chat gbt
     dropContainer.appendChild(letter);
-    // 🔥 CHECK COLLISION WHILE FALLING
+    //  CHECK COLLISION WHILE FALLING
     const checkCollision = setInterval(() => {
       const playerBounds = player.getBoundingClientRect();
       const letterBounds = letter.getBoundingClientRect();
