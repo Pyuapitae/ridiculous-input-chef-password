@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   setInterval(createLetter, 200);
+  });
 
   /*function collision(drop,collisionMarker){
     if (
@@ -148,13 +149,6 @@ document.addEventListener("click", function (event) {
   
   
   */
-
-  
-});
-
-
-
-
 
 
 

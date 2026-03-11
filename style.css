@@ -5,10 +5,10 @@ html{
 
 
 .madimi-one-regular {
-  font-family: "Madimi One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
 }
 
 
@@ -23,9 +23,7 @@ html{
       padding-right: 5%;
       padding-top:2%;
       z-index: 100;
-      
-
-    }
+}
 
 body{
       overflow: hidden;
@@ -36,14 +34,13 @@ body{
       color: #755139;
       font-size: 37.5px;
       font-family: 'Madimi One', cursive;
-      text-decoration: none;
-      
+      text-decoration: none; 
 }
 
 
 .R:hover{
-transition: 0.2s ease-in-out;
-transform:scale(1.2)
+      transition: 0.2s ease-in-out;
+      transform:scale(1.2)
 }
 
 
@@ -56,8 +53,8 @@ transform:scale(1.2)
       
 }
 .F:hover{
-transition: 0.16s ease-in-out;
-transform:scale(1.2)
+      transition: 0.16s ease-in-out;
+      transform:scale(1.2)
 }
 
 
@@ -80,11 +77,11 @@ animation
 }
 
 .chef {
-  position: absolute;
-  top: 45%;
-  width: 450px;
-  height: 450px;
-  z-index: 200;
+      position: absolute;
+      top: 45%;
+      width: 450px;
+      height: 450px;
+      z-index: 200;
 }
 .chef img{
       height: 100%;
@@ -121,8 +118,7 @@ animation
       right: 20%;
       top: 29%;   
       z-index: 200;
-      animation: fume 6s infinite;
-      
+      animation: fume 6s infinite;  
 }
 
 /*.touch{
@@ -130,12 +126,12 @@ animation
 } forgot what this is */ 
 
 .kiln {
-  position: absolute;
-  right: 30px;
-  top: 45%;
-  width: 450px;
-  height: 450px;
-  z-index: 200;
+      position: absolute;
+      right: 30px;
+      top: 45%;
+      width: 450px;
+      height: 450px;
+      z-index: 200;
 }
 
 .kiln{
@@ -143,19 +139,19 @@ animation
 }
 
 .kiln:hover{
-transform: rotateZ(10deg);
-transition: 0.2s;
+      transform: rotateZ(10deg);
+      transition: 0.2s;
 }
 
 
 .fume {
-  position: absolute;
-  right: 12%;
-  top: 14%;
-  width: 804.375px;
-  height: 460.95px;
-  animation: fume 6s infinite;
-  z-index: 200;
+      position: absolute;
+      right: 12%;
+      top: 14%;
+      width: 804.375px;
+      height: 460.95px;
+      animation: fume 6s infinite;
+      z-index: 200;
 }
 
 @keyframes fume {
@@ -224,9 +220,9 @@ transition: 0.2s;
 
 
 body {
-  margin: 0;
-  overflow: hidden;
-  background-color: #F2EDD7;
+      margin: 0;
+      overflow: hidden;
+      background-color: #F2EDD7;
 }
 
 
